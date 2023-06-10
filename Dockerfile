@@ -1,4 +1,4 @@
-FROM jgoerzen/debian-base-apache:bullseye
+FROM jgoerzen/debian-base-apache:bookworm
 MAINTAINER John Goerzen <jgoerzen@complete.org>
 COPY setup/ /usr/local/debian-base-setup/
 RUN /usr/local/debian-base-setup/050-debian-base-apache-php
